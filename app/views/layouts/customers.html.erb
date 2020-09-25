@@ -1,0 +1,4 @@
+<%= @customer.username %>
+<%= link_to "Book a new appointment", new_customer_path(@customer) %> | <%= link_to "View current appointments", customer_path(@customer) %>
+
+<%= yield %>
